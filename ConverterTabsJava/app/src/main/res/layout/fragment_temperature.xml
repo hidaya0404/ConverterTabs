@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversion Température"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/inputTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrer temperature en C"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConvertTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convertir"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/resultTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultat"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
